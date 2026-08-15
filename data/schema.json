@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Census Income Dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "age": {
+        "type": "integer"
+      },
+      "workclass": {
+        "type": "string"
+      },
+      "education": {
+        "type": "string"
+      },
+      "occupation": {
+        "type": "string"
+      },
+      "hours_per_week": {
+        "type": "integer"
+      },
+      "income_gt_50k": {
+        "type": "boolean"
+      }
+    }
+  }
+}
